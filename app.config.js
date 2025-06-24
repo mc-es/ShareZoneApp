@@ -1,5 +1,5 @@
 export default {
-  owner: 'mces58',
+  owner: 'mc-es',
   name: 'ShareZoneApp',
   slug: 'ShareZoneApp',
   version: '1.0.0',
@@ -13,14 +13,14 @@ export default {
   },
   ios: {
     supportsTablet: true,
-    bundleIdentifier: 'com.sharezoneapp',
+    bundleIdentifier: 'com.mces.sharezoneapp',
   },
   android: {
     adaptiveIcon: {
       foregroundImage: './assets/images/adaptive-icon.png',
       backgroundColor: '#ffffff',
     },
-    package: 'com.sharezoneapp',
+    package: 'com.mces.sharezoneapp',
     softwareKeyboardLayoutMode: 'pan',
   },
   web: {
