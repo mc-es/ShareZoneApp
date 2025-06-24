@@ -24,7 +24,7 @@ const SocialMedia: FC<SocialMediaProps> = ({ text, theme }) => {
         name="github"
         size={scaleByAspectRatio(18)}
         color={{ isGradient: true, grads: theme.common.color.defaultGradient1 }}
-        onPress={() => Linking.openURL('https://github.com/mces58')}
+        onPress={() => Linking.openURL('https://github.com/mc-es')}
       />
       <Icon
         name="instagram"
@@ -33,13 +33,13 @@ const SocialMedia: FC<SocialMediaProps> = ({ text, theme }) => {
           isGradient: true,
           grads: theme.common.color.defaultGradient1,
         }}
-        onPress={() => Linking.openURL('https://www.instagram.com/mces58')}
+        onPress={() => Linking.openURL('https://www.instagram.com/its.mces')}
       />
       <Icon
         name="linkedin"
         size={scaleByAspectRatio(18)}
         color={{ isGradient: true, grads: theme.common.color.defaultGradient1 }}
-        onPress={() => Linking.openURL('https://www.linkedin.com/in/mces58')}
+        onPress={() => Linking.openURL('https://www.linkedin.com/in/mc-es')}
       />
     </Container>
   );
